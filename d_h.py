@@ -58,8 +58,6 @@ if __name__ == '__main__':
   print("p :\n", p)
   print("\n")
 
-  # g, a, p = make_dh_values()
-
   r = mod_exp(g, a, p)
   print("g ** a mod p == \n", r)
   print("pow(g, a, p) == \n", pow(g, a, p), "\n")
